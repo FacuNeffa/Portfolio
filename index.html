@@ -71,6 +71,29 @@
     
     /* Estilo para los links de contacto para que no se confundan */
     .contact-links a { color: #0078d4; text-decoration: none; }
+
+        .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tech-badge {
+    background: rgba(0, 120, 212, 0.1);
+    border: 1px solid #0078d4;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.tech-badge:hover {
+    background: #0078d4;
+    transform: scale(1.05);
+}
 </style>
 </head>
 <body>
@@ -89,6 +112,19 @@
                 Me apasiona construir sistemas escalables, eficientes y aplicar buenas prácticas de desarrollo para resolver problemas complejos.
             </p>
         </section>
+        
+        <section id="tecnologias">
+    <h2>Skills profesionales</h2>
+    <div class="tech-stack">
+        <span class="tech-badge">.NET Core / Framework</span>
+        <span class="tech-badge">C#</span>
+        <span class="tech-badge">SQL Server</span>
+        <span class="tech-badge">C++</span>
+        <span class="tech-badge">Power BI</span>
+        <span class="tech-badge">Git / GitHub</span>
+        <span class="tech-badge">APIs REST</span>
+    </div>
+</section>
 
         <section id="formacion">
     <h2>Formación académica</h2>
@@ -155,4 +191,5 @@
     </div>
 
 </body>
+
 </html>
